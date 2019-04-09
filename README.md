@@ -1,9 +1,13 @@
-﻿# 获取ip
+# 获取ip
 
 #### 项目介绍
 自动登录西南财经大学天府学院校网并且获取ip发到指定邮箱
 
 ![](img/pingmu.png) 
+![](img/bat.png) 
+![](img/email_success.png) 
+
+
 感谢[robertzhang10](https://blog.csdn.net/robertzhang10/article/details/2099589?utm_source=blogxgwz3)
 提供的bat命令框不关闭的方法
 #### 软件架构
