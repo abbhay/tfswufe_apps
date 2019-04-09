@@ -1,9 +1,15 @@
-﻿# 获取ipip
+﻿# 获取ip
 
 #### 项目介绍
 自动登录西南财经大学天府学院校网并且获取ip发到指定邮箱
-![发送邮箱成功](img/email_success.png)
 
+![](img/email_success.png,"发送邮箱成功")
+
+![](img/bat.png,"bat命令")
+
+![](img/bat命令框不关闭.png) 
+感谢[robertzhang10](https://blog.csdn.net/robertzhang10/article/details/2099589?utm_source=blogxgwz3)
+提供的bat命令框不关闭的方法
 #### 软件架构
 软件架构说明
 获取data
