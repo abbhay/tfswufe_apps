@@ -3,9 +3,9 @@
 #### 项目介绍
 自动登录西南财经大学天府学院校网并且获取ip发到指定邮箱
 
-![](img/pingmu.png) 
-![](img/bat.png) 
-![](img/email_success.png) 
+![](img/pingmu.png,"屏保") 
+![](img/bat.png,"BAT") 
+![](img/email_success.png,"邮件发送成功") 
 
 
 感谢[robertzhang10](https://blog.csdn.net/robertzhang10/article/details/2099589?utm_source=blogxgwz3)
