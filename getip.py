@@ -18,9 +18,9 @@ def get_host_ip():
     return ip
 
 def get_ip(ip):
-    my_sender = '1452245133@qq.com'  # 发件人邮箱账号
-    my_pass = 'vyrwewwjdimififg'  # 发件人stamp
-    my_user   = '1452245133@qq.com'  # 收件人邮箱账号，我这边发送给自己
+    my_sender = '*********'  # 发件人邮箱账号
+    my_pass = '###########'  # 发件人stamp
+    my_user   = '*******'  # 收件人邮箱账号，我这边发送给自己
 
     def mail():
         ret = True
