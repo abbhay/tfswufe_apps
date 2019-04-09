@@ -2,6 +2,7 @@
 
 #### 项目介绍
 自动登录西南财经大学天府学院校网并且获取ip发到指定邮箱
+[发送邮箱成功](img/email_success.png)
 
 #### 软件架构
 软件架构说明
@@ -28,7 +29,7 @@
 3. 提交代码
 4. 新建 Pull Request
 
-
+### 图片
 ### 个人博客
 [我的博客](https://abbhay.github.io) 欢迎fllow
 
