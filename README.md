@@ -218,8 +218,8 @@ ____
 支付宝打赏:
 ![支付宝](/img/alipay01.jpg)
 
-微信打赏
-![微信](/img/wechapayt01.jpg)
+微信打赏：
+![微信](/img/wechapayt01.png)
 
 _____
 
