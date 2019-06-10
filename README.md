@@ -168,7 +168,8 @@ ___
 
 ***请注意 此项目是自己随机选 若使用该程序出现任何问题  概不负责***
 
-![](./img/jixunceping01.jpg)
+![](./img/jixunceping01.png)
+![](./img/jixunceping02.png)
 
 
 
@@ -214,7 +215,7 @@ ____
 
 ## 资助
 
-![支付宝](.img//alipay.jpg)
+![支付宝](/img/alipay.jpg)
 
 _____
 
