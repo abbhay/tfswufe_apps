@@ -221,7 +221,7 @@ ____
 ![支付宝](/img/alipay01.jpg)
 
 微信打赏：
-![微信](/img/wechatpayt01.png)
+![微信](/img/wechatpay01.png)
 
 _____
 
