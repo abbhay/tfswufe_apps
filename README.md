@@ -169,6 +169,8 @@ ___
 ***请注意 此项目是自己随机选 若使用该程序出现任何问题  概不负责***
 
 ![](./img/jixunceping01.png)
+
+
 ![](./img/jixunceping02.png)
 
 
@@ -219,7 +221,7 @@ ____
 ![支付宝](/img/alipay01.jpg)
 
 微信打赏：
-![微信](/img/wechapayt01.png)
+![微信](/img/wechatpayt01.png)
 
 _____
 
