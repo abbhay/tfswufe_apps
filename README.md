@@ -72,7 +72,7 @@ _____
 
 自动进行登陆web评教
 
-![](D:/GITHUB/tfswufe_apps/img/2018-2019-pingjiao01.png)
+![](./img/web评教01.png)
 
 
 
