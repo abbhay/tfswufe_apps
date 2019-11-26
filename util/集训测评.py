@@ -15,10 +15,10 @@ class JIXUN(object):
 
     def login(self):
         self.driver.get(self.url)
-        self.driver.find_element_by_xpath('//*[@id="app"]/div/div[1]/div[2]/form/p[1]/input').send_keys(self.zhanghao)
-        self.driver.find_element_by_xpath('//*[@id="app"]/div/div[1]/div[2]/form/p[2]/input').send_keys(self.password)
-        self.driver.find_element_by_xpath('//*[@id="app"]/div/div[1]/div[2]/form/p[3]/input').send_keys(input('请输入验证码:'))
-        self.driver.find_element_by_xpath('//*[@id="app"]/div/div[1]/div[2]/form/p[4]/a[1]').click()
+        self.driver.find_element_by_xpath('//*[@id="apps"]/div/div[1]/div[2]/form/p[1]/input').send_keys(self.zhanghao)
+        self.driver.find_element_by_xpath('//*[@id="apps"]/div/div[1]/div[2]/form/p[2]/input').send_keys(self.password)
+        self.driver.find_element_by_xpath('//*[@id="apps"]/div/div[1]/div[2]/form/p[3]/input').send_keys(input('请输入验证码:'))
+        self.driver.find_element_by_xpath('//*[@id="apps"]/div/div[1]/div[2]/form/p[4]/a[1]').click()
 
         if self.driver.current_url == self.right_url:
             self.xianzhuang()
@@ -26,7 +26,7 @@ class JIXUN(object):
             self.login()
 
     def xianzhuang(self):
-        self.driver.get('http://tf-swufe.careersky.cn/jixun/Begin/Begin')
+        self.driver.get('http://tfswufe.careersky.cn/jixun/Begin/Begin')
         try:
             self.driver.find_element_by_xpath("//*[text()='开始答题']").click()
             for i in self.driver.find_elements_by_xpath('//td[2]/div'):
@@ -39,7 +39,7 @@ class JIXUN(object):
             self.zhiyexingqu()
 
     def zhiyexingqu(self):
-            self.driver.get('http://tf-swufe.careersky.cn/jixun/Interest/Interest')
+            self.driver.get('http://tfswufe.careersky.cn/jixun/Interest/Interest')
             try:
                 self.driver.find_element_by_xpath("//*[text()='开始答题']").click()
                 if  self.driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div/div[4]/div[4]/div/a'):
@@ -56,7 +56,7 @@ class JIXUN(object):
                self.zhiyexinge()
 
     def zhiyexinge(self):
-        self.driver.get('http://tf-swufe.careersky.cn/jixun/Character/Character')
+        self.driver.get('http://tfswufe.careersky.cn/jixun/Character/Character')
         try:
             self.driver.find_element_by_xpath("//*[text()='开始答题']").click()
             for cishu in range(7):
@@ -71,7 +71,7 @@ class JIXUN(object):
             self.zhiyejiazhi()
 
     def zhiyejiazhi(self):
-        self.driver.get('http://tf-swufe.careersky.cn/jixun/Value/Value')
+        self.driver.get('http://tfswufe.careersky.cn/jixun/Value/Value')
         try:
             self.driver.find_element_by_xpath("//*[text()='开始答题']").click()
             for cishu in range(3):
@@ -90,7 +90,7 @@ class JIXUN(object):
            self.zhiyefengge()
 
     def zhiyefengge(self):
-        self.driver.get('http://tf-swufe.careersky.cn/jixun/Learn/Learn')
+        self.driver.get('http://tfswufe.careersky.cn/jixun/Learn/Learn')
         try:
             self.driver.find_element_by_xpath("//*[text()='开始答题']").click()
             for cishu in range(6):
@@ -107,7 +107,7 @@ class JIXUN(object):
             self.zhiyejineng()
 
     def zhiyejineng(self):
-        self.driver.get('http://tf-swufe.careersky.cn/jixun/Skill/Skill')
+        self.driver.get('http://tfswufe.careersky.cn/jixun/Skill/Skill')
         try:
             self.driver.find_element_by_xpath("//*[text()='开始答题']").click()
             for cishu1 in random.sample(range(1,36),5):
