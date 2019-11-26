@@ -61,7 +61,7 @@ class JIXUN(object):
             self.driver.find_element_by_xpath("//*[text()='开始答题']").click()
             for cishu in range(7):
                 for i in self.driver.find_elements_by_xpath('//dd/div'):
-                    i.find_element_by_xpath('./label[{0}]'.format(random.randint(1, 2))).click()
+                    i.find_element_by_xpath('../label[{0}]'.format(random.randint(1, 2))).click()
                 self.driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div/div[4]/div[4]/div/a').click()
 
             print('已完成')
